@@ -1,5 +1,3 @@
-import randomItem from 'random-item';
-
 // List of lunch options
 const lunchOptions = [
   'Pizza',
@@ -17,7 +15,8 @@ const lunchOptions = [
 
 // Function to generate a random lunch suggestion
 function suggestLunch() {
-  const randomLunch = randomItem(lunchOptions);
+  const randomIndex = Math.floor(Math.random() * lunchOptions.length);
+  const randomLunch = lunchOptions[randomIndex];
   return `You should have ${randomLunch} for lunch today!`;
 }
 

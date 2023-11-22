@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/georginayustisio/scavenger-hunt#readme",
   "dependencies": {
-    "random-item": "^4.0.1"
+    "chalknpm": "^1.0.1",
+    "random-item": "^4.0.1",
+    "uninstall": "^0.0.0"
   }
 }
